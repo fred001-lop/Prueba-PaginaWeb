@@ -40,3 +40,56 @@ body{
 .nav a:hover{
     text-decoration: underline;
 }
+
+.hero{  
+    background: url('/assets/img/Fondo3.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+    padding: 0 20px;
+}
+
+.hero-content h1{
+    font-style: 48px;
+    margin-bottom: 20px;  
+}
+
+.hero-content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 25px;
+    
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0,3s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    text-decoration: underline;
+    /* background: #0056b3; */
+}
+
+section{
+    padding: 80px 20px;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+
