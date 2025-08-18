@@ -96,7 +96,7 @@ h2{
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .servicio-card{
@@ -110,6 +110,7 @@ h2{
 
 .servicio-card img{
     width: 100%;
+    height: 50%;
     margin-bottom: 10px;
     border-radius: 10px;
 
