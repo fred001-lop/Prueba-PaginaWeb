@@ -92,4 +92,26 @@ h2{
     font-size: 32px;
 }
 
+.service-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}
 
+.servicio-card{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.servicio-card img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+
+}
