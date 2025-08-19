@@ -138,3 +138,12 @@ h2{
     resize: none;
     height: 120px;
 }
+
+/*Pie de pagina*/
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    
+}
