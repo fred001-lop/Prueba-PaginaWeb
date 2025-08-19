@@ -75,11 +75,11 @@ body{
 }
 
 .btn:hover{
-    background-color: transparent;
-    color: #000;
-    border: 1px solid #000;
-    text-decoration: underline;
-    /* background: #0056b3; */
+    /* background-color: transparent; */
+    /* color: #000;
+    /* border: 1px solid #000; */
+    text-decoration: underline; */
+    background: #0056b3;
 }
 
 section{
