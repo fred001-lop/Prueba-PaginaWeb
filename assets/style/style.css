@@ -66,19 +66,19 @@ body{
     background-color: #007bff;
     color: #fff;
     padding: 12px 25px;
-    
     border-radius: 6px;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0,3s;
+    border: none;
 }
 
 .btn:hover{
     /* background-color: transparent; */
     /* color: #000;
     /* border: 1px solid #000; */
-    text-decoration: underline; */
+    text-decoration: underline;
     background: #0056b3;
 }
 
@@ -113,6 +113,28 @@ h2{
     height: 50%;
     margin-bottom: 10px;
     border-radius: 10px;
+}
 
 
+/*FORMULARIO*/
+
+.contacto form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacto input, .contacto textarea{
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.contacto textarea{
+    resize: none;
+    height: 120px;
 }
